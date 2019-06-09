@@ -1,0 +1,21 @@
+{
+  "js_prettier": {
+    "auto_format_on_save": true,
+    "auto_format_on_save_requires_prettier_config": true,
+    "auto_format_on_save_excludes": [
+      "*/node_modules/*"
+    ],
+    "custom_file_extensions": [
+      "css",
+      "html",
+      "js",
+      "json",
+      "md",
+      "svelte",
+      "yaml"
+    ],
+    "additional_cli_args": {
+      "--config-precedence": "file-override"
+    }
+  }
+}
