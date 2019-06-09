@@ -20,5 +20,8 @@
     "dev": "run-p start:dev autobuild",
     "start": "sirv public",
     "start:dev": "sirv public --dev"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
   }
 }
